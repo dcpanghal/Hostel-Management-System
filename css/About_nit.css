@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.nav-cont{
+    background-color: white;
+}
+/* .NIT_img img{
+    width: 100vw;
+    height: 80vh;
+} */
+.about_us{
+    padding: 20px;
+}
+.about_us h2{
+    padding: 20px 0;
+}
+.about_us p{
+    line-height: 26px;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+.contact_us h2{
+    padding: 20px 0;
+}
+.contact_us h3{
+    padding: 10px 0;
+}
+.contact_us p{
+    padding: 4px 0;
+}
+.about_us{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.2);
+}
+.contact_us{
+    min-height: 60vh;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.2);
+    padding: 16px;
+}
+.contact_us h2{
+    padding-left: 100px;
+}
+
+.contact_cards{
+    display: flex;
+}
+
+.cards{
+    margin: auto;
+}
+iframe{
+    max-height: 250px;
+}

@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+.wrapper {
+  /* padding: 1%; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-primary {
+  font-size: large;
+  padding: 8px 20px;
+  border-radius: 25px;
+  background-color: #01bf71;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid #01bf71;
+}
+
+/* CSS FOR NAVBAR */
+
+header {
+  max-height: 723px;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+nav{
+  min-height: 100vh;
+}
+
+.nav-content {
+  /* max-height: 12vh; */
+  max-height: 70px;
+  background-color: white;
+  /* min-height: 12vh; */
+  min-height: 70px;
+}
+
+.nav-align {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.nav-logo img {
+  /* height: 20%; */
+  height: 69px;
+  background-color: white;
+  /* padding: 2%; */
+  padding: 5px;
+}
+
+.nav-links {
+  /* padding-top: 3%; */
+  padding-top: 1.5vw;
+}
+
+.nav-signup {
+  /* padding-top: 4%; */
+  padding-top: 16px;
+}
+
+.nav-links ul li {
+  display: inline;
+  padding: 2%;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+}
+
+.video {
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
+
+#myVideo {
+  min-width: 100vw;
+  object-fit: cover;
+}
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  font-size: 35px;
+  gap: 10px;
+  color: white;
+}
+
+main{
+  background-color: white;
+}
+
+.About_hostel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.H_photo{
+  width: 45vw;
+}
+
+.Hostel_text{
+  padding-top: 7%;
+  min-width: 300px;
+  width: 30vw;
+}
+
+.Hostel_text h2{
+    color: #01bf71;
+    padding-bottom: 10px;
+}
+
+.Hostel_text h3{
+    padding-bottom: 20px;
+}
+
+.Hostel_text p{
+    line-height: 23px;
+    padding-bottom: 50px;
+}
+
+.Chief{
+    display: flex;
+    gap: 10px;
+}
+
+.Chief_photo img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.Chief_text{
+    padding-top: 15px;
+}
+
+.Chief_text h3{
+    padding-bottom: 8px;
+}
+
+/* CSS FOR GALLERY */
+.product {
+  position: relative;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  color: #01bf71;
+}
+
+.product-container {
+  padding: 0 10vw;
+  margin-bottom: 100px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 450px;
+}
+
+.product-image {
+  width: 95%;
+  height: 300px;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.pre-btn,.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
+  cursor: pointer;
+  z-index: 1;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+/* CSS FOR FOOTER */
+footer{
+  background-color: black;
+}
+
+.footer-menu{
+  color: white;
+  gap: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.foot-logo img{
+  width: 100px;
+}
+
+.foot-logo{
+  padding-right: 100px;
+}
+
+.foot-logo h2{
+  padding-top: 20px;
+  color: #01bf71;
+}
+
+.foot-text{
+  padding: 10px;
+}
+
+.foot-links{
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  gap: 50px;
+}
+
+.foot-links h4{
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.foot-links a{
+  text-decoration: none;
+  color: white;
+}
+
+.foot-links a:hover{
+  color: #01bf71;
+}
+
+.foot-icon{
+   padding-top: 40px;
+}
+
+.foot-icon i{
+  padding-left: 20px;
+}
+
+.line{
+  margin: 50px 0 0 0;
+}
+
+.last-text{
+  color: white;
+  padding: 20px;
+}
+
+@media screen  and (width<=565px){
+  .hide{
+    visibility: hidden;
+  }
+  .nav-links{
+    padding-top: 20px;
+    padding-left: 5vw;
+  }
+  .res-btn{
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+  .nav-signup{
+    padding-top: 20px;
+  }
+}

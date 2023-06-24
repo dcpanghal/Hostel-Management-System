@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+th {
+    width: 140px;
+    height: 50px;
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    font-size: 18px;
+}
+
+.btnprofile {
+    color: white;
+    background-color: #3498db;
+    font-size: 14px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.btnprofile:hover {
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    color: #fff;
+}
+.search_box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #643fef;
+    height: 80px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_box .search_btn .btnsearch {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #7a5cf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.search_box .input_search {
+    outline: none;
+    border: 0;
+    background: #7a5cf0;
+    border-radius: 50px;
+    padding: 15px 20px;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+
+}
+
+.com_body{
+    background-color: rgb(208, 220, 226);
+}
+.main-com{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(1,1,1,0.5);
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.view{
+    display: flex;
+    align-items: center;
+}
+
+.complains{
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(1,1,1,0.5);
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.error{
+    color: red;
+}

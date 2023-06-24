@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.full-not{
+    border: 1px solid black;
+    max-width: 60%;
+    margin: 40px auto;
+    min-height: 80vh;
+}
+
+.not-head{
+    background-color:  #01bf71;
+    padding: 20px;
+}
+
+.not-bottom{
+    padding: 20px;
+}
+
+.not-bottom p{
+    padding-bottom: 10px;
+
+}
+
+.not-bottom a{
+    color: black;
+}
+.not-bottom a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
